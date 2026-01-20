@@ -1,15 +1,46 @@
-# Exercícios práticos em Java
+# ☕ Exercícios e Projetos - Java Completo
 
-Este repositório contém os exercícios práticos Java Completo (Programação Orientada a Objetos).
+Este repositório contém exercícios práticos e mini-projetos desenvolvidos durante meus estudos de **Java Completo (Programação Orientada a Objetos)**. O foco é a aplicação de boas práticas de desenvolvimento, lógica de programação e domínio da linguagem Java.
 
-## Tópicos Estudados:
-- Estrutura Sequencial, Condicional e Repetitiva
-- Vetores e Listas
-- Matrizes
-- Orientação a Objetos (Encapsulamento, Construtores)
-- Tratamento de Exceções
+# 🛠️ Tecnologias Utilizadas
+* **Java** (JDK atualizado)
+* **Eclipse IDE**
+* **Git/GitHub** para versionamento
 
-## Tecnologias:
-- Java
-- Eclipse IDE
-- Git/GitHub
+## 📚 Tópicos e Conceitos Aplicados
+* **Fundamentos:** Estruturas Sequenciais, Condicionais e Repetitivas.
+* **Estrutura de Dados:** Vetores, Matrizes e Listas (`ArrayList`).
+* **POO Avançada:**
+    * Encapsulamento, Construtores, Getters & Setters.
+    * **Composição de Objetos** (Relacionamento "Tem-um").
+    * **Enumerações** (`enum`).
+    * **Membros Estáticos**.
+* **Utilitários:** Manipulação de Data/Hora (`Date`, `Calendar`, `SimpleDateFormat`) e String (`StringBuilder`).
+
+---
+
+## 🚀 Projetos Destacados
+
+Aqui estão os principais exercícios que simulam cenários reais de negócio:
+
+### 📦 OrderSystem (Sistema de Pedidos)
+* **Conceito:** Composição de Objetos e Enums.
+* **Descrição:** Sistema que registra pedidos de clientes, contendo múltiplos itens e calculando o total automaticamente. O pedido possui status (Pendente, Processando, Enviado, Entregue) controlado por Enumerações.
+
+### 📝 TecBlog (Postagens e Comentários)
+* **Conceito:** Manipulação de Listas e StringBuilder.
+* **Descrição:** Simulação de uma rede social onde um Post contém uma lista de Comentários. Utiliza `StringBuilder` para gerar relatórios formatados de forma eficiente.
+
+### 💼 HRSystem / EmployeeSalary
+* **Conceito:** Listas e Encapsulamento.
+* **Descrição:** Sistema de gestão de funcionários que permite registrar dados e aplicar aumentos salariais baseados em porcentagem, localizando funcionários por ID dentro de uma Lista.
+
+### 🎓 GradingSystemSchool (Sistema de Notas)
+* **Conceito:** Lógica de Negócios na Classe.
+* **Descrição:** Avalia se um aluno foi aprovado ou reprovado baseado na nota final, encapsulando a regra de aprovação dentro da própria classe do aluno.
+
+### 🏨 Pensionato
+* **Conceito:** Vetores.
+* **Descrição:** Sistema de reserva de quartos utilizando vetores para gerenciar a ocupação.
+
+---
