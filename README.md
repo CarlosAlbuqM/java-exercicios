@@ -13,6 +13,7 @@ Este repositório contém exercícios práticos e mini-projetos desenvolvidos du
 * **POO Avançada:**
     * Encapsulamento, Construtores, Getters & Setters.
     * **Composição de Objetos** (Relacionamento "Tem-um").
+    * **Herança e Polimorfismo** (Relacionamento "É-um").
     * **Enumerações** (`enum`).
     * **Membros Estáticos**.
 * **Utilitários:** Manipulação de Data/Hora (`Date`, `Calendar`, `SimpleDateFormat`) e String (`StringBuilder`).
@@ -43,4 +44,11 @@ Aqui estão os principais exercícios que simulam cenários reais de negócio:
 * **Conceito:** Vetores.
 * **Descrição:** Sistema de reserva de quartos utilizando vetores para gerenciar a ocupação.
 
+### 💰 TaxPayer System (Sistema de Contribuintes)
+* **Conceito:** Classes Abstratas e Polimorfismo.
+* **Descrição:** Sistema para cálculo de imposto de renda anual. Diferencia regras de tributação para Pessoas Físicas (com gastos de saúde) e Pessoas Jurídicas (com número de funcionários), utilizando uma classe abstrata para padronizar o contrato de cálculo.
+
+### 📐 Shape Areas (Áreas Geométricas)
+* **Conceito:** Métodos Abstratos.
+* **Descrição:** Aplicação clássica de polimorfismo onde diferentes formas geométricas (Círculo, Retângulo) calculam sua área de maneiras distintas, mas são tratadas genericamente pelo sistema.
 ---
